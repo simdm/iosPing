@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>servers</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>HOLDiPhone</string>
+			<key>host</key>
+			<string>219.148.36.10</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>sina</string>
+			<key>host</key>
+			<string>202.108.33.60</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>baidu</string>
+			<key>host</key>
+			<string>61.135.169.125</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>yahoo</string>
+			<key>host</key>
+			<string>72.30.2.43</string>
+		</dict>
+	</array>
+</dict>
+</plist>
