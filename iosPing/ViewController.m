@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MBPing.h"
+#import "DMPing.h"
 #import "Server.h"
 
 @implementation ViewController
@@ -24,7 +24,7 @@
 {
     [super viewDidLoad];
 	
-    Server *server = [MBPing start];    
+    Server *server = [DMPing start];    
     NSLog(@"BEST Speed : name = [%@], host = [%@], Speed = [%dms]", server.name, server.host, server.speed);
 }
 

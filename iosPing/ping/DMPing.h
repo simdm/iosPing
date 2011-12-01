@@ -1,5 +1,5 @@
 //
-//  MBPing.h
+//  DMPing.h
 //  iosPing
 //
 //  Created by demeng on 11-11-9.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Server.h"
 
-@interface MBPing : NSObject {
+@interface DMPing : NSObject {
     uint16_t icmp_id;
     uint16_t icmp_seq;
     int64_t last_received_time;

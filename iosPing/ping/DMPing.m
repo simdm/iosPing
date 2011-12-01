@@ -1,12 +1,12 @@
 //
-//  MBPing.m
+//  DMPing.m
 //  iosPing
 //
 //  Created by demeng on 11-11-9.
 //  Copyright (c) 2011年 HOLDiPhone. All rights reserved.
 //
 
-#import "MBPing.h"
+#import "DMPing.h"
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-@implementation MBPing
+@implementation DMPing
 @synthesize last_rtt, ipAdress;
 
 struct ICMPHeader {
@@ -215,7 +215,7 @@ int64_t ustime(void) {
     NSMutableArray *serverArray = [[NSMutableArray alloc] initWithCapacity:[array count]];
     for (NSDictionary *element in array) 
     {
-        MBPing *ping = [[MBPing alloc] init];
+        DMPing *ping = [[DMPing alloc] init];
         ping.ipAdress = [element objectForKey:@"host"];
         [ping startPing];
         

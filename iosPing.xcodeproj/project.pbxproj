@@ -15,7 +15,7 @@
 		6D011FA61487742F00C22541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011FA51487742F00C22541 /* AppDelegate.m */; };
 		6D011FA91487742F00C22541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011FA81487742F00C22541 /* ViewController.m */; };
 		6D011FAC1487742F00C22541 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D011FAA1487742F00C22541 /* ViewController.xib */; };
-		6D011FB81487747F00C22541 /* MBPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011FB41487747F00C22541 /* MBPing.m */; };
+		6D011FB81487747F00C22541 /* DMPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011FB41487747F00C22541 /* DMPing.m */; };
 		6D011FB91487747F00C22541 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011FB61487747F00C22541 /* Server.m */; };
 		6D011FBA1487747F00C22541 /* servers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D011FB71487747F00C22541 /* servers.plist */; };
 /* End PBXBuildFile section */
@@ -34,8 +34,8 @@
 		6D011FA71487742F00C22541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D011FA81487742F00C22541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6D011FAB1487742F00C22541 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		6D011FB31487747F00C22541 /* MBPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPing.h; sourceTree = "<group>"; };
-		6D011FB41487747F00C22541 /* MBPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPing.m; sourceTree = "<group>"; };
+		6D011FB31487747F00C22541 /* DMPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPing.h; sourceTree = "<group>"; };
+		6D011FB41487747F00C22541 /* DMPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPing.m; sourceTree = "<group>"; };
 		6D011FB51487747F00C22541 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
 		6D011FB61487747F00C22541 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 		6D011FB71487747F00C22541 /* servers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = servers.plist; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		6D011FB21487747F00C22541 /* ping */ = {
 			isa = PBXGroup;
 			children = (
-				6D011FB31487747F00C22541 /* MBPing.h */,
-				6D011FB41487747F00C22541 /* MBPing.m */,
+				6D011FB31487747F00C22541 /* DMPing.h */,
+				6D011FB41487747F00C22541 /* DMPing.m */,
 				6D011FB51487747F00C22541 /* Server.h */,
 				6D011FB61487747F00C22541 /* Server.m */,
 				6D011FB71487747F00C22541 /* servers.plist */,
@@ -185,7 +185,7 @@
 				6D011FA21487742F00C22541 /* main.m in Sources */,
 				6D011FA61487742F00C22541 /* AppDelegate.m in Sources */,
 				6D011FA91487742F00C22541 /* ViewController.m in Sources */,
-				6D011FB81487747F00C22541 /* MBPing.m in Sources */,
+				6D011FB81487747F00C22541 /* DMPing.m in Sources */,
 				6D011FB91487747F00C22541 /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +296,7 @@
 				6D011FB11487742F00C22541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
